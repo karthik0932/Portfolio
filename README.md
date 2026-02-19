@@ -1,19 +1,29 @@
-# Portfolio Website - DevOps Practice Project
+# Portfolio Website
 
-A simple portfolio website built for practicing DevOps, CI/CD, and Git workflows.
+A modern, interactive portfolio website built with Vue.js for showcasing professional experience and projects.
 
 ## Project Structure
 
 ```
 .
-├── index.html          # Main HTML file
-├── styles.css          # Styling
+├── index.html          # Main HTML file with Vue.js
+├── app.js              # Vue.js application logic
+├── styles.css          # Styling with animations
 ├── Dockerfile          # Docker configuration
 ├── .github/
 │   └── workflows/
 │       └── deploy.yml  # GitHub Actions CI/CD pipeline
 └── README.md           # This file
 ```
+
+## Features
+
+- Interactive Vue.js single-page application
+- Expandable project cards with detailed information
+- Animated gradient background
+- Fully responsive design
+- Modern glassmorphism UI effects
+- Smooth scrolling navigation
 
 ## Local Development
 
@@ -47,36 +57,29 @@ Visit `http://localhost:8080`
 
 This project includes a GitHub Actions workflow that:
 - Builds the Docker image
-- Runs tests (if any)
+- Runs tests
 - Deploys to your hosting platform
-
-## Customization
-
-1. Update content in `index.html` with your actual information
-2. Modify colors and styles in `styles.css`
-3. Add your projects and experience
-4. Update contact links
-
-## DevOps Learning Checklist
-
-- [ ] Initialize Git repository
-- [ ] Create GitHub repository
-- [ ] Set up Docker containerization
-- [ ] Configure GitHub Actions CI/CD
-- [ ] Deploy to cloud platform (AWS, Azure, etc.)
-- [ ] Set up monitoring and logging
-- [ ] Implement infrastructure as code (Terraform)
-- [ ] Add automated testing
-- [ ] Configure domain and SSL
 
 ## Technologies Used
 
+- Vue.js 3
 - HTML5
-- CSS3
+- CSS3 (with animations and gradients)
+- Font Awesome icons
 - Docker
 - GitHub Actions
 - Nginx (for Docker deployment)
 
+## Customization
+
+1. Update content in `app.js` to modify:
+   - Skills
+   - Work experience
+   - Projects
+   - Contact information
+
+2. Modify colors and styles in `styles.css`
+
 ## License
 
-MIT License - Feel free to use this for your own learning!
+MIT License - Feel free to use this for your own portfolio!
