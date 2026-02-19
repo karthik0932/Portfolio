@@ -46,7 +46,7 @@ createApp({
             ],
             experiences: [
                 {
-                    title: 'RIA Project',
+                    title: 'Full Stack Developer',
                     company: 'TietoEvry',
                     date: '',
                     points: [
