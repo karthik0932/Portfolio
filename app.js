@@ -33,9 +33,15 @@ createApp({
                 },
                 {
                     title: 'Version Control',
-                    tech: 'Git, GitHub',
+                    tech: 'Git, GitHub, Branching, Pull Requests, GitHub Actions',
                     icon: 'fab fa-git-alt',
                     color: '#f59e0b'
+                },
+                {
+                    title: 'DevOps & Containers',
+                    tech: 'Docker, Dockerfile, Docker Compose, Containerization',
+                    icon: 'fab fa-docker',
+                    color: '#0ea5e9'
                 },
                 {
                     title: 'Languages',
